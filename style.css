@@ -1,0 +1,128 @@
+* {
+    margin: 0%;    
+}
+
+.parent_head1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(75, 71, 71);
+    padding-top: 10px;
+    border-top: 10px;
+    border-color: rgb(75, 71, 71);
+    border-style: solid;
+    padding-bottom: 15px;
+    color: white;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.parent_head2 {
+    display: flex;
+    list-style-type: none;
+
+}
+
+#li1 {
+    padding-right: 15px;
+}
+
+#li2 {
+    padding-right: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#slash {
+    padding-top: 1px;
+    padding-right: 1px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.parent_body1 {
+    background-image: linear-gradient(to bottom right, rgb(53, 83, 108), rgb(96, 7, 68));
+    height: 1000px;
+    text-align: center;
+    color: white;
+}
+
+.content1 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.content2 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.content3 {
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#parent_inside {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    ;
+}
+
+.inside {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 2px;
+    padding-left: 20px;
+    text-align: start;
+}
+
+#try {
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 18px;    
+}
+
+footer {
+    padding: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(62, 122, 224);
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    padding-right: 9px;
+    padding-left: 9px;
+    border-color: white;
+    border-style: solid;
+}
+
+a {
+    color:rgb(62, 122, 224);
+}
